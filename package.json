@@ -1,0 +1,29 @@
+{
+  "name": "jest-esm-overlayscrollbars-react",
+  "type": "module",
+  "version": "0.0.0",
+  "scripts": {
+    "test": "NODE_OPTIONS=\"$NODE_OPTIONS --experimental-vm-modules\" npx jest"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.23.7",
+    "@babel/preset-env": "^7.23.8",
+    "@babel/preset-react": "^7.23.3",
+    "@babel/preset-typescript": "^7.23.3",
+    "@testing-library/react": "^14.1.2",
+    "@types/react": "^18.2.48",
+    "@types/react-dom": "^18.2.18",
+    "babel-jest": "^29.7.0",
+    "jest": "^29.7.0",
+    "jest-environment-jsdom": "^29.7.0",
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "overlayscrollbars": "^2.4.6",
+    "overlayscrollbars-react": "^0.5.3",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}

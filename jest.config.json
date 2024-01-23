@@ -1,0 +1,11 @@
+{
+  "testEnvironment": "jsdom",
+  "transform": {
+    "^.+\\.(t|j)sx?$": ["babel-jest"]
+  },
+  "moduleNameMapper": {
+    "(?<!(.+\\.module))(\\.css|\\.scss)$": "<rootDir>/.jest/mocks/style.js"
+  },
+  "transformIgnorePatterns": ["/node_modules/.+js$"],
+  "extensionsToTreatAsEsm": [".ts", ".tsx"]
+}
